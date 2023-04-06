@@ -43,6 +43,7 @@ img {
   display: flex;
 }
 .logo {
+  margin-right: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
   color: var(--button-color-normal);
@@ -330,20 +331,20 @@ img {
   display: flex;
 }
 .site-nav .item {
-  margin-left: 40px;
+  margin-right: 40px;
 
   display: block;
 }
-nav {
+.menu-nav {
+  align-items: center;
   display: flex;
 }
 .contact-list {
-  margin-left: 387px;
+  gap: 40px;
+  margin-left: 315px;
   display: flex;
 }
-.contact-list .item {
-  margin-right: 40px;
-}
+
 .contact-list .item:last-child {
   margin-right: 0;
 }
@@ -362,4 +363,10 @@ nav {
   margin-left: 24px;
   margin-top: 24px;
   margin-bottom: 48px;
+}
+.container-menu {
+  display: flex;
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
 }

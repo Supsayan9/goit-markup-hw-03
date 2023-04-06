@@ -182,11 +182,9 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  padding: 120px 0;
 }
 .team-header {
-  margin-top: 120px;
-  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -196,21 +194,16 @@ img {
   color: var(--hero-background);
 }
 .team {
+  width: calc((100% - 72px) / 4);
   background-color: var(--bg-color);
-  width: 264px;
-  height: 380px;
-  border-radius: 0px 0px 4px 4px;
 }
 .team-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 32px;
-  margin-bottom: 120px;
+  gap: 24px;
 }
 .hero-content {
-  margin-top: 0;
-  margin-bottom: 32px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -310,7 +303,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 24px;
 }
 .menu-box {
   display: inline-flex;
@@ -324,7 +317,7 @@ img {
   padding: 120px 0;
 }
 .foto {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 .site-nav {
   display: flex;
@@ -373,4 +366,11 @@ img {
 }
 .content-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.item-foto {
+  flex-basis: calc((100% - 48px) / 3);
+}
+.hero-name {
+  padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
 }

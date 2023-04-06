@@ -341,7 +341,7 @@ img {
 }
 .contact-list {
   gap: 40px;
-  margin-left: 315px;
+  margin-left: 285px;
   display: flex;
 }
 
@@ -365,6 +365,8 @@ img {
   margin-bottom: 48px;
 }
 .container-menu {
+  padding: 0 15px;
+  align-items: center;
   display: flex;
   width: 1158px;
   margin-left: auto;

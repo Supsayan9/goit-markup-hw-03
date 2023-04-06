@@ -194,8 +194,9 @@ img {
   text-transform: capitalize;
   color: var(--hero-background);
 }
-.team {
+.team-box > .team {
   flex-basis: calc((100% - 3 * 24px) / 4);
+  background-color: var(--bg-color);
 }
 .team-box {
   display: flex;

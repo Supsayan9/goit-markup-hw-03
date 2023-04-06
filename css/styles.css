@@ -232,13 +232,12 @@ img {
 /* Футер */
 /* ---------------------------------------------------------------------- */
 .footer {
-  display: flow-root;
+  padding: 100px 0;
   background-color: var(--hero-background);
 }
 .logo-footer {
   color: var(--button-color-normal);
   display: inline-block;
-  margin-top: 100px;
   margin-bottom: 16px;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -255,7 +254,6 @@ img {
   letter-spacing: 0.02em;
   width: 264px;
   margin-top: 18px;
-  margin-bottom: 100px;
 }
 .studio-footer {
   color: var(--our-team);

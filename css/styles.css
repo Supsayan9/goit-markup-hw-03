@@ -321,12 +321,8 @@ img {
   padding-bottom: 120px;
 }
 .site-nav {
+  gap: 40px;
   display: flex;
-}
-.site-nav .item {
-  margin-right: 40px;
-
-  display: block;
 }
 .menu-nav {
   align-items: center;

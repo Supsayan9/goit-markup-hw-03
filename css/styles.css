@@ -294,6 +294,7 @@ img {
   flex-direction: row;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
 }
 .buttons-list .item {
   margin-left: 24px;
@@ -365,7 +366,7 @@ img {
   margin-right: auto;
 }
 .content-item {
-  basis: calc((100% - 3 * 24px) / 4);
+ width calc((100% - 3 * 24px) / 4);
 }
 .item-foto {
   flex-basis: calc((100% - 48px) / 3);

@@ -197,6 +197,7 @@ img {
 }
 .team {
   flex-basis: calc((100% - 72px) / 4);
+  flex: 1;
 }
 .team-box {
   display: flex;

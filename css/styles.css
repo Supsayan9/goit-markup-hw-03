@@ -290,11 +290,10 @@ img {
   border: 1px solid transparent;
 }
 .buttons-list {
-  margin-top: 96px;
-  margin-bottom: 72px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 24px;
 }
 .buttons-list .item {
   margin-left: 24px;
@@ -367,11 +366,14 @@ img {
   margin-right: auto;
 }
 .content-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  basis: calc((100% - 3 * 24px) / 4);
 }
 .item-foto {
   flex-basis: calc((100% - 48px) / 3);
 }
 .item-menu {
   flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.section {
+  padding: 96px 120px;
 }

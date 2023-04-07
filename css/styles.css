@@ -196,7 +196,7 @@ img {
   color: var(--hero-background);
 }
 .team {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .team-box {
   display: flex;
@@ -366,7 +366,7 @@ img {
   margin-right: auto;
 }
 .content-item {
- width calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .item-foto {
   flex-basis: calc((100% - 48px) / 3);

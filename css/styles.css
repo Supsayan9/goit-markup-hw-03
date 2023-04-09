@@ -368,7 +368,7 @@ img {
   margin-right: auto;
 }
 .content-item {
-  flex-basis: calc((100% - 4 * 24px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .item-foto {
   flex-basis: calc((100% - 48px) / 3);

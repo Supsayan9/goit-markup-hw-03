@@ -320,6 +320,8 @@ img {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .section-content {
   padding: 120px 0;
@@ -335,9 +337,6 @@ img {
   align-items: center;
   display: flex;
 }
-.footer > .content-footer {
-  margin-bottom: 100px;
-}
 .card-set {
   display: flex;
   flex-wrap: wrap;
@@ -348,12 +347,9 @@ img {
   width: calc((100% - 48px) / 3);
 }
 .container-menu {
-  padding: 0 15px;
   align-items: center;
   display: flex;
   width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .content-item {
   flex-basis: calc((100% - 72px) / 4);
